@@ -1,0 +1,109 @@
+/*---Testimonial 01---*/
+.review1 {
+  .single-review1 {
+    background: $theme-color-white;
+    padding: 40px 60px;
+    margin-bottom: 40px;
+    position: relative;
+    -webkit-box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+    box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+    border-radius: 10px;
+    p {
+      font-size: 18px;
+      line-height: 32px;
+      color: $theme-color-black;
+      font-weight: 400;
+      font-style: italic;
+    }
+    &:before {
+      content: "\f10d";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 700;
+      font-size: 60px;
+      color: rgba(0, 0, 0, 0.4);
+      opacity: 0.25;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+
+    &:after {
+      content: "\f10e";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 700;
+      font-size: 60px;
+      color: rgba(0, 0, 0, 0.4);
+      opacity: 0.25;
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+    }
+  }
+
+  .review-meta1 {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-top: 30px;
+    .review-meta-img1 {
+      img {
+        border-radius: 50%;
+        width: 56px;
+        height: 56px;
+      }
+    }
+  }
+
+  .review-text1 {
+    margin-left: 30px;
+
+    h4 {
+      font-size: 17px;
+      line-height: 27px;
+      color: $theme-color-black;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 12px;
+      line-height: 17px;
+      color: $theme-color-black;
+      font-weight: 600;
+      font-style: italic;
+      margin-bottom: 0;
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .review1 {
+    .single-review1 {
+      p {
+        font-size: 14px;
+        line-height: 22px;
+      }
+      &:before {
+        height: 40px;
+        width: 40px;
+      }
+      &:after {
+        height: 40px;
+        width: 40px;
+      }
+    }
+
+    .review-text1 {
+      h4 {
+        font-size: 12px;
+        line-height: 17px;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 17px;
+      }
+    }
+  }
+}

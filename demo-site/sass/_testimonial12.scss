@@ -1,0 +1,57 @@
+/*---Testimonial 12---*/
+.review12 {
+  .single-review12 {
+    padding: 30px;
+    background: rgba(4, 0, 255, 0.7);
+    margin-bottom: 40px;
+    position: relative;
+    -webkit-box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+    box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+    border-radius: 20px;
+    .base-class12 {
+      p {
+        font-size: 18px;
+        line-height: 35px;
+        text-align: start;
+        color: $theme-color-white;
+        padding: 0px 30px 10px 30px;
+      }
+      .txt12 {
+        text-align: start;
+        padding: 0px 30px 0px 30px;
+        h1 {
+          font-size: 20px;
+          text-align: start;
+          color: rgb(226, 188, 17);
+        }
+        p {
+          line-height: 0;
+          font-size: 12px;
+          text-align: start;
+          color: rgb(255, 255, 255);
+          padding: 0px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .review12 {
+    .single-review12 {
+      .base-class12 {
+        p {
+          font-size: 14px;
+          line-height: 25px;
+        }
+        .txt12 {
+          h1 {
+            font-size: 16px;
+          }
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

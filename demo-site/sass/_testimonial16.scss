@@ -1,0 +1,172 @@
+/*---Testimonial 16---*/
+.review16 {
+  padding: 80px 0px;
+  position: relative;
+  .single-review16 {
+    background: rgba(0, 0, 0, 0.411);
+    padding: 50px 0px;
+    margin-bottom: 40px;
+    position: relative;
+    border-radius: 10px;
+
+    p {
+      padding-right: 50px;
+      font-size: 18px;
+      line-height: 32px;
+      color: $theme-color-black;
+      font-weight: 400;
+      font-style: italic;
+    }
+    &:before {
+      background-repeat: no-repeat;
+      content: "";
+      position: absolute;
+      top: -27%;
+      left: 5%;
+      height: 380px;
+      width: 550px;
+      background-image: url(" ../img/bg-m16.png");
+
+      opacity: 1;
+      font-size: 126px;
+      z-index: 1;
+    }
+  }
+
+  .review-text16 {
+    h4 {
+      font-size: 20px;
+      line-height: 27px;
+      color: rgb(56, 14, 243);
+      font-weight: 600;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 17px;
+      color: $theme-color-black;
+      font-weight: 600;
+      font-style: italic;
+      margin-bottom: 0;
+    }
+  }
+}
+@media (max-width: 1199.98px) {
+  .review16 {
+    .single-review16 {
+      p {
+        font-size: 15px;
+      }
+      &:before {
+        top: -25%;
+        left: 0%;
+        height: 392px;
+        width: 550px;
+      }
+    }
+
+    .review-text16 {
+      h4 {
+        font-size: 15px;
+      }
+
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+}
+@media (max-width: 991.98px) {
+  .review16 {
+    .single-review16 {
+      p {
+        padding-right: 25px;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      &:before {
+        top: 5%;
+        left: 0;
+        height: 300px;
+        width: 250px;
+        background-image: url(" ../img/bg-2-16.png");
+      }
+    }
+
+    .review-text16 {
+      h4 {
+        font-size: 14px;
+        line-height: 10px;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .review16 {
+    .single-review16 {
+      p {
+        padding-right: 25px;
+        font-size: 12px;
+        line-height: 20px;
+      }
+      &:before {
+        top: 5%;
+        left: 0;
+        height: 300px;
+        width: 250px;
+        background-image: url(" ../img/bg-2-16.png");
+      }
+    }
+
+    .review-text16 {
+      h4 {
+        font-size: 12px;
+        line-height: 10px;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .review16 {
+    .single-review16 {
+      p {
+        padding-right: 25px;
+        font-size: 12px;
+        line-height: 20px;
+      }
+      &:before {
+        top: 50%;
+        left: 0;
+        height: 300px;
+        width: 250px;
+        background-image: url(" ../img/bg16.png");
+      }
+    }
+
+    .review-text16 {
+      h4 {
+        font-size: 12px;
+        line-height: 10px;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 10px;
+      }
+    }
+  }
+}

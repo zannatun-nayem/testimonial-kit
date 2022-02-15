@@ -1,0 +1,111 @@
+/*---Testimonial 06---*/
+.review6 {
+  .single-review6 {
+    background: $theme-color-white;
+    margin-bottom: 40px;
+    position: relative;
+    -webkit-box-shadow: 0 10px 10px rgba(47, 72, 88, 0.2);
+    box-shadow: 0 10px 10px rgba(47, 72, 88, 0.2);
+    border-radius: 20px;
+
+    .base-class6 {
+      .image6 {
+        position: relative;
+
+        .img-16 {
+          width: 100%;
+          img {
+            width: 100%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+          }
+        }
+        .img-txt6 {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+
+          .img-txt-16 {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            height: 50%;
+            width: 50%;
+            transition: 0.2s all ease-in-out;
+            p {
+              font-size: 20px;
+              line-height: 35px;
+              text-align: center;
+              color: $theme-color-white;
+            }
+          }
+
+          &:hover {
+            background: rgba($theme-color-black, 0.8);
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            transition: 0.2s all ease-in-out;
+          }
+        }
+      }
+      .txt6 {
+        padding: 50px;
+        text-align: center;
+        h1 {
+          font-size: 30px;
+          text-align: center;
+          color: $theme-color-black;
+        }
+        p {
+          text-align: center;
+          color: $theme-color-black;
+          margin-bottom: 0px;
+        }
+      }
+    }
+    .overlay6 {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      bottom: 0;
+      height: 80px;
+      width: 80px;
+
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .review6 {
+    .single-review6 {
+      .base-class6 {
+        .image6 {
+          .img-txt6 {
+            .img-txt-16 {
+              height: 60%;
+              width: 60%;
+              p {
+                font-size: 12px;
+                line-height: 20px;
+              }
+            }
+          }
+        }
+        .txt6 {
+          padding: 50px;
+
+          h1 {
+            font-size: 18px;
+          }
+        }
+      }
+      .overlay6 {
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
+}

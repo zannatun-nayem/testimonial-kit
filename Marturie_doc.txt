@@ -1,0 +1,40 @@
+
+<p> Marturie – Responsive Custom testimonial with 16 styles, Based on Bootstrap v5. You can use it on your web site or in your project to showcase your testimonial/review, during a distinctive approach. Marturie is highly customizable – looks awesome on testimonial/review and mobile devices. 
+</p>
+
+<h3> Features List =====</h3>
+<ul>
+    <li>Pure CSS & HTML</li>
+    <li>100% Responsive Layout</li>
+    <li> 16 Testimonial Styles</li>
+    <li>SCSS File Included</li>
+    <li>Animated Hover States</li>
+    <li>Fontawesome Included</li>
+    <li>Google fonts Included</li>
+    <li>Documentation Included</li>
+</ul>
+
+<h3>Browser Support =====</h3>
+<ul>
+<li>Firefox </li>
+<li>Opera </li>
+<li>Chrome </li>
+<li>IE10 and Above </li>
+<li>Microsoft Edge </li>
+</ul>
+
+<h3> Files Included: </h3>
+<ul>
+    <li> HTML Files</li>
+    <li> Included Font Awesome </li>
+    <li>Supporting CSS, JS files</li>
+    <li>Documentation in HTML</li>
+</ul>
+
+
+
+
+
+<h3>Support</h3>
+<p> If you have any queries or need any special customizing or help for using this template please feel free to contact us via info@theThemely.com. If you have a moment, please rate our item, We will love it very much! Thank you.
+</p>

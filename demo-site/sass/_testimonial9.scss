@@ -1,0 +1,89 @@
+/*---Testimonial 09---*/
+.review9 {
+  .single-review9 {
+    padding: 30px;
+    background: rgba(#1212eb, 1);
+    margin-bottom: 40px;
+    position: relative;
+    -webkit-box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+    box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+    border-radius: 20px;
+    .base-class9 {
+      p {
+        font-size: 18px;
+        line-height: 35px;
+        text-align: center;
+        color: $theme-color-white;
+        padding: 30px 30px 15px 30px;
+        margin: 0px;
+      }
+      .txt9 {
+        text-align: center;
+        padding-bottom: 30px;
+        h1 {
+          font-size: 20px;
+          text-align: center;
+          color: $theme-color-white;
+        }
+        p {
+          line-height: 0;
+          font-size: 12px;
+          text-align: center;
+          color: $theme-color-white;
+          padding: 0px;
+          margin-bottom: 0px;
+        }
+      }
+    }
+    .overlay9 {
+      img {
+        border-radius: 50%;
+      }
+    }
+
+    .overlay-29 {
+      z-index: -1;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      top: 0;
+      height: 20px;
+      width: 90%;
+      border-radius: 5px;
+      background: rgba(#1212eb, 1);
+      box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+    }
+    .overlay-39 {
+      z-index: -2;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      top: -3%;
+      height: 20px;
+      width: 80%;
+      border-radius: 5px;
+      background: rgba(#1212eb, 1);
+      box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .review9 {
+    .single-review9 {
+      .base-class9 {
+        p {
+          font-size: 14px;
+          line-height: 25px;
+        }
+        .txt9 {
+          h1 {
+            font-size: 16px;
+          }
+          p {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}

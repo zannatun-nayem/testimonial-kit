@@ -1,0 +1,65 @@
+/*---Testimonial 11---*/
+.review11 {
+  .single-review11 {
+    padding: 40px 40px;
+    background: rgba(24, 24, 24, 0.5);
+    position: relative;
+    -webkit-box-shadow: 0 10px 10px rgba(47, 72, 88, 0.2);
+    box-shadow: 0 10px 10px rgba(47, 72, 88, 0.2);
+    border-radius: 20px;
+    .base-class11 {
+      p {
+        font-size: 18px;
+        line-height: 35px;
+        text-align: center;
+        color: $theme-color-white;
+        padding: 20px 30px 10px 30px;
+        margin-bottom: 0px;
+      }
+      .txt11 {
+        text-align: center;
+        padding: 10px;
+        h1 {
+          font-size: 20px;
+          text-align: center;
+          color: rgb(226, 188, 17);
+        }
+        p {
+          line-height: 0;
+          font-size: 12px;
+          text-align: center;
+          color: rgb(255, 255, 255);
+          padding: 0px;
+          margin-bottom: 0px;
+        }
+      }
+    }
+    .overlay11 {
+      margin: auto;
+      opacity: 0.125;
+      font-size: 80px;
+      color: rgba(0, 0, 0, 0.411);
+      padding: 0;
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .review11 {
+    .single-review11 {
+      .base-class11 {
+        p {
+          font-size: 14px;
+          line-height: 25px;
+        }
+        .txt11 {
+          h1 {
+            font-size: 16px;
+          }
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

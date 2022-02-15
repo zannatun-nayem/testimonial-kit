@@ -1,0 +1,95 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+section {
+  padding: 80px 0px;
+}
+.section-heading1 {
+  text-align: center;
+  .header {
+    padding-bottom: 40px;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .section-heading1 {
+    .header {
+      font-size: 45px;
+    }
+  }
+}
+@media (max-width: 991.98px) {
+  .section-heading1 {
+    .header {
+      font-size: 40px;
+    }
+  }
+}
+@media (max-width: 767.98px) {
+  .section-heading1 {
+    .header {
+      font-size: 35px;
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .section-heading1 {
+    .header {
+      font-size: 25px;
+    }
+  }
+}
+.top-header {
+  position: relative;
+  background: rgba($theme-color-black, 0.75);
+  color: $theme-color-white;
+  text-align: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+
+  h1 {
+    text-transform: capitalize;
+    padding-bottom: 16px;
+  }
+  p {
+    margin-bottom: 2rem;
+  }
+  a {
+    text-decoration: none;
+    background: $theme-color-black;
+    color: $theme-color-white;
+    border: 1px solid $theme-color-white;
+    padding: 0.75rem 2rem;
+
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+    &:hover {
+      background: $theme-color-white;
+      color: $theme-color-black;
+      border: 1px solid $theme-color-black;
+    }
+  }
+}
+footer {
+  background: rgba($theme-color-black, 0.75);
+  color: $theme-color-white;
+  text-align: center;
+  height: 15vh;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+}

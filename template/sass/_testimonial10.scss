@@ -1,0 +1,112 @@
+/*---Testimonial 10---*/
+.review10 {
+  padding: 0;
+  background-image: url(../img/bg10.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: -5;
+  .bg-color10 {
+    padding: 80px 0px;
+    background: rgba(0, 0, 0, 0.6);
+    .section-heading1 {
+      .header {
+        color: $theme-color-white;
+      }
+    }
+    .single-review10 {
+      padding: 30px;
+      background: $theme-color-white;
+      margin-bottom: 40px;
+      position: relative;
+      -webkit-box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+      box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+      .base-class10 {
+        p {
+          font-size: 18px;
+          line-height: 35px;
+          text-align: center;
+          color: $theme-color-black;
+          padding: 40px 30px 15px 30px;
+          margin-bottom: 0px;
+        }
+        .txt10 {
+          text-align: center;
+          padding-bottom: 40px;
+          h1 {
+            font-size: 20px;
+            text-align: center;
+            color: #1212eb;
+          }
+          p {
+            line-height: 0;
+            font-size: 12px;
+            text-align: center;
+            color: $theme-color-black;
+            padding: 0px;
+            margin: 0px;
+          }
+        }
+      }
+      .overlay10 {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 0;
+        height: 100px;
+        width: 100px;
+
+        img {
+          border-radius: 50%;
+        }
+      }
+
+      .overlay-210 {
+        z-index: -1;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        bottom: 0;
+        height: 20px;
+        width: 90%;
+        background: $theme-color-white;
+        box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+      }
+      .overlay-310 {
+        z-index: -2;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        bottom: -3%;
+        height: 20px;
+        width: 80%;
+        background: $theme-color-white;
+        box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+      }
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .review10 {
+    .bg-color10 {
+      .single-review10 {
+        .base-class10 {
+          p {
+            font-size: 14px;
+            line-height: 25px;
+          }
+          .txt10 {
+            h1 {
+              font-size: 16px;
+            }
+            p {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-thums">
+      <rect width="80" height="80"/>
+    </clipPath>
+  </defs>
+  <g id="thums" clip-path="url(#clip-thums)">
+    <rect width="80" height="80" fill="#0f0e0e"/>
+    <text id="Marturie" transform="translate(3 47)" fill="#fff" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Marturie</tspan></text>
+  </g>
+</svg>

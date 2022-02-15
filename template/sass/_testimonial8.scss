@@ -1,0 +1,96 @@
+/*---Testimonial 08---*/
+.review8 {
+  .single-review8 {
+    padding: 40px;
+    background: $theme-color-white;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    position: relative;
+    -webkit-box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+    box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+    border-radius: 20px;
+    .base-class8 {
+      p {
+        font-size: 18px;
+        line-height: 35px;
+        text-align: center;
+        color: $theme-color-black;
+        padding: 50px 30px 15px 30px;
+        margin: 0px;
+      }
+      .txt8 {
+        text-align: center;
+        h1 {
+          font-size: 20px;
+          text-align: center;
+          color: #1212eb;
+        }
+        p {
+          line-height: 0;
+          font-size: 12px;
+          text-align: center;
+          color: $theme-color-black;
+          padding: 0px;
+          margin-bottom: 0px;
+        }
+      }
+    }
+    .overlay8 {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      top: 0;
+      height: 100px;
+      width: 100px;
+
+      img {
+        border-radius: 50%;
+      }
+    }
+
+    .overlay-28 {
+      z-index: -1;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      bottom: 0;
+      height: 20px;
+      width: 90%;
+      border-radius: 5px;
+      background: $theme-color-white;
+      box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+    }
+    .overlay-38 {
+      z-index: -2;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      bottom: -3%;
+      height: 20px;
+      width: 80%;
+      border-radius: 5px;
+      background: $theme-color-white;
+      box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .review {
+    .single-review {
+      .base-class {
+        p {
+          font-size: 14px;
+          line-height: 25px;
+        }
+        .txt {
+          h1 {
+            font-size: 16px;
+          }
+          p {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}

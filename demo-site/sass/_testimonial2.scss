@@ -1,0 +1,84 @@
+/*---Testimonial 02---*/
+.review2 {
+  .single-review2 {
+    background: $theme-color-white;
+    padding: 40px 60px;
+    margin-bottom: 40px;
+    position: relative;
+    -webkit-box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+    box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+    border-radius: 10px;
+    p {
+      padding: 0px 40px;
+      font-size: 18px;
+      line-height: 32px;
+      color: $theme-color-black;
+      font-weight: 400;
+      font-style: italic;
+    }
+    &:before {
+      content: "\f10d";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 700;
+      font-size: 60px;
+      color: rgba(0, 0, 0, 0.4);
+      opacity: 0.25;
+      position: absolute;
+      top: 45px;
+      left: 20px;
+    }
+  }
+
+  .review-meta2 {
+    margin-top: 30px;
+  }
+
+  .review-text2 {
+    h4 {
+      padding: 0px 40px;
+      font-size: 17px;
+      line-height: 27px;
+      color: $theme-color-black;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+
+    p {
+      padding: 0px 40px;
+      font-size: 12px;
+      line-height: 17px;
+      color: $theme-color-black;
+      font-weight: 600;
+      font-style: italic;
+      margin-bottom: 0px;
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .review2 {
+    .single-review2 {
+      p {
+        font-size: 14px;
+        line-height: 22px;
+      }
+      &:before {
+        height: 40px;
+        width: 40px;
+      }
+    }
+
+    .review-text2 {
+      h4 {
+        font-size: 12px;
+        line-height: 17px;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 17px;
+      }
+    }
+  }
+}

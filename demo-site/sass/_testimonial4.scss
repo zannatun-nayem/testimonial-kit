@@ -1,0 +1,72 @@
+/*---Testimonial 04---*/
+.review4 {
+  .single-review4 {
+    background: rgba(0, 0, 0, 9);
+    padding: 40px 60px;
+    margin-bottom: 40px;
+    position: relative;
+    -webkit-box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+    box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+    border-radius: 10px;
+    p {
+      padding: 0px 40px;
+      font-size: 18px;
+      line-height: 32px;
+      color: $theme-color-white;
+      font-weight: 400;
+      font-style: italic;
+    }
+    &:before {
+      content: "\f10d";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 700;
+      font-size: 60px;
+      position: absolute;
+      top: 45px;
+      left: 20px;
+      opacity: 0.25;
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+
+  .review-text4 {
+    h4 {
+      padding: 0px 40px;
+      font-size: 17px;
+      line-height: 27px;
+      color: rgb(235, 181, 64);
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+
+    p {
+      padding: 0px 40px;
+      font-size: 12px;
+      line-height: 17px;
+      color: $theme-color-white;
+      font-weight: 600;
+      font-style: italic;
+      margin-bottom: 0px;
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .review4 {
+    .single-review4 {
+      p {
+        font-size: 14px;
+        line-height: 22px;
+      }
+    }
+
+    .review-text4 {
+      h4 {
+        padding: 0px 40px;
+        font-size: 13px;
+        line-height: 17px;
+      }
+    }
+  }
+}

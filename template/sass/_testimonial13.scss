@@ -1,0 +1,111 @@
+/*---Testimonial 13---*/
+.review13 {
+  .single-review13 {
+    padding: 40px 40px;
+    margin-bottom: 40px;
+    position: relative;
+    -webkit-box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+    box-shadow: 0 10px 30px rgba(47, 72, 88, 0.2);
+    border-radius: 10px;
+
+    img {
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+    }
+    p {
+      padding-left: 10px;
+      font-size: 14px;
+      line-height: 32px;
+      color: $theme-color-black;
+      font-weight: 400;
+      font-style: italic;
+    }
+  }
+
+  .review-text13 {
+    h4 {
+      padding-left: 90px;
+      font-size: 17px;
+      line-height: 27px;
+      color: $theme-color-black;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+
+    p {
+      padding-left: 90px;
+      font-size: 12px;
+      line-height: 17px;
+      color: $theme-color-black;
+      font-weight: 600;
+      font-style: italic;
+      margin-bottom: 0;
+    }
+  }
+}
+@media (max-width: 991.98px) {
+  .review13 {
+    .single-review13 {
+      .review-text13 {
+        h4 {
+          padding-left: 16%;
+          font-size: 14px;
+          line-height: 17px;
+        }
+
+        p {
+          padding-left: 16%;
+          font-size: 12px;
+          line-height: 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767.98px) {
+  .review13 {
+    .single-review13 {
+      .review-text13 {
+        h4 {
+          padding-left: 22%;
+          font-size: 14px;
+          line-height: 17px;
+        }
+
+        p {
+          padding-left: 22%;
+          font-size: 12px;
+          line-height: 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .review13 {
+    .single-review13 {
+      padding: 30px 40px;
+
+      p {
+        font-size: 12px;
+        line-height: 22px;
+      }
+    }
+
+    .review-text13 {
+      padding-left: 15%;
+      h4 {
+        font-size: 10px;
+        line-height: 17px;
+      }
+
+      p {
+        font-size: 10px;
+        line-height: 10px;
+      }
+    }
+  }
+}
